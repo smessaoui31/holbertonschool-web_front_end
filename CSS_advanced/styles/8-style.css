@@ -1,0 +1,148 @@
+/* Appliquer un défilement fluide */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Définir la couleur du texte pour le body */
+body {
+  color: #161616; /* couleur du texte en gris foncé */
+}
+
+/* Définir la couleur du texte pour tous les liens (anchor elements) */
+a {
+  color: #161616; /* couleur du texte des liens */
+}
+
+/* Masquer les éléments avec la classe .visually-hidden */
+.visually-hidden {
+  display: none; /* Masquer les éléments */
+}
+
+/* Définir la couleur du texte pour tous les éléments avec la classe .card-category */
+.card-category {
+  color: #D73953; /* couleur spécifique pour la catégorie de carte */
+}
+
+/* Définir la couleur du texte pour tous les éléments avec la classe .section-tagline */
+.section-tagline {
+  color: #D73953; /* couleur spécifique pour le tagline de la section */
+}
+
+/* Définir les variables CSS dans :root */
+:root {
+  --color-primary: #d73953;      /* couleur principale */
+  --color-black: #090909;        /* couleur noire */
+  --color-white: #ffffff;        /* couleur blanche */
+  --color-light-grey: #f3f3f3;   /* couleur gris clair */
+  --color-dark-grey: #353535;    /* couleur gris foncé */
+  --text-color: var(--color-black); /* texte en couleur noire */
+}
+
+/* Réinitialiser la couleur des éléments .section-tagline et .card-category à la couleur primaire */
+.section-tagline, .card-category {
+  color: var(--color-primary);
+}
+
+/* Réinitialiser la couleur du body et des liens (anchor) à la couleur du texte */
+body, a {
+  color: var(--text-color);
+}
+
+/* Définir les variables CSS dans :root */
+:root {
+  --color-primary: #d73953;      /* couleur principale */
+  --color-black: #090909;        /* couleur noire */
+  --color-white: #ffffff;        /* couleur blanche */
+  --color-light-grey: #f3f3f3;   /* couleur gris clair */
+  --color-dark-grey: #353535;    /* couleur gris foncé */
+  --text-color: var(--color-black); /* texte en couleur noire */
+}
+
+/* Réinitialiser la couleur des éléments .section-tagline et .card-category à la couleur primaire */
+.section-tagline, .card-category {
+  color: var(--color-primary);
+}
+
+/* Réinitialiser la couleur du body et des liens (anchor) à la couleur du texte */
+body, a {
+  color: var(--text-color);
+}
+
+/* Définir les variables de police dans :root */
+:root {
+  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;  /* police de base */
+  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;  /* police pour les titres */
+}
+
+/* Appliquer la police de base au body */
+body {
+  font-family: var(--font-family-base);
+}
+
+/* Appliquer la police des titres à tous les niveaux de titres (h1, h2, h3, h4, h5, h6) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+}
+
+/* Définir les variables de taille de police dans :root */
+:root {
+  --font-size-small: 1.2rem;    /* Petite taille de police */
+  --font-size-medium: 1.6rem;   /* Taille moyenne de police */
+  --font-size-large: 1.8rem;    /* Grande taille de police */
+  --font-size-x-large: 2.3rem;  /* Très grande taille de police */
+  --font-size-xx-large: 4.8rem; /* Taille extrêmement grande de police */
+}
+
+/* Appliquer un paramètre global de taille de police (62.5%) */
+html {
+  font-size: 62.5%;  /* 1rem = 10px */
+}
+
+/* Appliquer la taille de police moyenne au body */
+body {
+  font-size: var(--font-size-medium);
+}
+
+/* Définir les variables pour le poids de la police */
+:root {
+  --font-weight-regular: 400;  /* Poids de police régulier */
+  --font-weight-bold: 700;     /* Poids de police gras */
+}
+
+/* Appliquer le poids de police régulier au body */
+body {
+  font-weight: var(--font-weight-regular);
+}
+
+/* Appliquer le poids de police gras aux titres (h1, h2, h3, h4, h5, h6) */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-bold);
+}
+
+/* Définir les variables pour les polices */
+:root {
+  --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;  /* Open Sans comme première police */
+  --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Raleway comme première police */
+}
+
+/* Appliquer la police de base (Open Sans) au body */
+body {
+  font-family: var(--font-family-base);
+}
+
+/* Appliquer la police des titres (Raleway) aux éléments h1, h2, h3, h4, h5, h6 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+}
+
+/* Définir les variables pour la hauteur de ligne */
+:root {
+  --line-height-small: 1.2; /* petite hauteur de ligne */
+  --line-height-base: 1.5;  /* hauteur de ligne de base */
+  --line-height-big: 1.8;   /* grande hauteur de ligne */
+}
+
+/* Appliquer la hauteur de ligne de base au body */
+body {
+  line-height: var(--line-height-base);
+}
