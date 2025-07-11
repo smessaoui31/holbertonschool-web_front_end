@@ -1,0 +1,89 @@
+x
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color-primary: #d73953;      /* couleur principale */
+  --color-black: #090909;        /* couleur noire */
+  --color-white: #ffffff;        /* couleur blanche */
+  --color-light-grey: #f3f3f3;   /* couleur gris clair */
+  --color-dark-grey: #353535;    /* couleur gris foncé */
+  --text-color: var(--color-black); /* texte en couleur noire */
+  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;  /* police de base */
+  --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;  /* police pour les titres */
+  --font-size-small: 1.2rem;    /* Petite taille de police */
+  --font-size-medium: 1.6rem;   /* Taille moyenne de police */
+  --font-size-large: 1.8rem;    /* Grande taille de police */
+  --font-size-x-large: 2.3rem;  /* Très grande taille de police */
+  --font-size-xx-large: 4.8rem; /* Taille extrêmement grande de police */
+  --line-height-small: 1.2; /* petite hauteur de ligne */
+  --line-height-base: 1.5;  /* hauteur de ligne de base */
+  --line-height-big: 1.8;   /* grande hauteur de ligne */
+  --font-weight-regular: 400;  /* Poids de police régulier */
+  --font-weight-bold: 700;     /* Poids de police gras */
+  --section-tagline-transform: uppercase;
+  --section-title-margin: 0;         /* Marge du titre de section */
+  --section-title-color: var(--color-black);    /* Couleur du texte du titre de section (noir) */
+  --section-header-align: center;
+}
+
+body {
+  color: var(--text-color); /* couleur du texte en gris foncé */
+  font-family: var(--font-family-base); /* Appliquer la police de base */
+  font-weight: var(--font-weight-regular); /* Appliquer le poids de police régulier */
+  font-size: var(--font-size-medium); /* Appliquer la taille de police moyenne */
+  line-height: var(--line-height-base); /* Appliquer la hauteur de ligne de base */
+}
+
+.visually-hidden {
+  display: none; /* Masquer les éléments */
+}
+
+.card-category {
+  color: var(--color-primary); /* couleur spécifique pour la catégorie de carte */
+}
+
+.section-tagline {
+  color: var(--color-primary); /* couleur spécifique pour le tagline de la section */
+  font-family: var(--font-family-title);        /* Appliquer la police des titres */
+  font-weight: var(--font-weight-bold);         /* Appliquer le poids de police gras */
+  text-transform: var(--section-tagline-transform); /* Mettre le texte en majuscules */
+}
+
+.section-header {
+  text-align: var(--section-header-align); /* Centrer les titres de section */
+}
+
+.section-title {
+  font-family: var(--font-family-title);       /* Appliquer la police des titres */
+  font-size: var(--font-size-xx-large);        /* Appliquer la taille de police extra-large */
+  font-weight: var(--font-weight-bold);        /* Appliquer le poids de police gras */
+  margin: var(--section-title-margin);         /* Appliquer la marge */
+  color: var(--section-title-color);           /* Appliquer la couleur du texte */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);       /* Appliquer la police des titres */
+  font-weight: var(--font-weight-bold);        /* Appliquer le poids de police gras */
+  font-size: var(--font-size-large);           /* Appliquer la taille de police grande */
+  margin: var(--section-title-margin);         /* Appliquer la marge */
+  color: var(--section-title-color);           /* Appliquer la couleur du texte */
+}
+
+a:link {
+  color: var(--text-color);  /* Utiliser la couleur du texte de base */
+  text-decoration: none;     /* Pas de soulignement par défaut */
+}
+
+a:visited {
+  font-style: italic;  /* Mettre en italique le texte des liens visités */
+}
+
+a:hover {
+  text-decoration: underline;  /* Ajouter un soulignement au survol */
+}
+
+a:active {
+  background-color: var(--color-light-grey);  /* Utiliser la couleur gris clair pour l'arrière-plan */
+}
