@@ -1,0 +1,29 @@
+/* Appliquer un défilement fluide */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Define the color text for the body */
+body {
+  color: #161616; /* color text in grass grey */
+}
+
+/* Définir la couleur du texte pour tous les liens (anchor elements) */
+a {
+  color: #161616; /* couleur du texte des liens */
+}
+
+/* Masquer les éléments avec la classe .visually-hidden */
+.visually-hidden {
+  display: none; /* Masquer les éléments */
+}
+
+/* Définir la couleur du texte pour tous les éléments avec la classe .card-category */
+.card-category {
+  color: #D73953; /* couleur spécifique pour la catégorie de carte */
+}
+
+/* Définir la couleur du texte pour tous les éléments avec la classe .section-tagline */
+.section-tagline {
+  color: #D73953; /* couleur spécifique pour le tagline de la section */
+}
