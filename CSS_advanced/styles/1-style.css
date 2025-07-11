@@ -1,0 +1,6 @@
+/* 1-style.css */
+
+/* Appliquer un défilement fluide */
+html {
+  scroll-behavior: smooth;
+}
