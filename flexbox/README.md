@@ -9,8 +9,9 @@ This project is a series of exercises to learn and practice CSS Flexbox. Startin
 - Understand what Flexbox is and how it works
 - Convert float-based layouts to flexbox
 - Use flex container properties: display, flex-direction, flex-wrap, justify-content, align-items
-- Use flex item properties: align-self
+- Use flex item properties: align-self, order
 - Know the difference between the main axis and the cross axis
+- Build a multi-section article page layout using flexbox
 
 ## Tasks
 
@@ -26,6 +27,11 @@ This project is a series of exercises to learn and practice CSS Flexbox. Startin
 | 7 | 7-index.html, 7-styles.css | Align center logo and navbar |
 | 8 | 8-index.html, 8-styles.css | Simplify the hero banner with flexbox |
 | 9 | 9-index.html, 9-styles.css | Center about us columns with align-self |
+| 10 | 10-article.html, 10-styles.css | Create article page and fix hero styles |
+| 11 | 11-article.html, 11-styles.css | Add hero article with background and overlay |
+| 12 | 12-article.html, 12-styles.css | Build main article structure with post and aside |
+| 13 | 13-article.html, 13-styles.css | Add post meta list with author, date and tags |
+| 14 | 14-article.html, 14-styles.css | Add social share icons to the aside section |
 
 ## Requirements
 
