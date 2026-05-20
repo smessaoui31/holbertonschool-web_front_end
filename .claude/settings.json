@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/vscode/holbertonschool-web_front_end add accessibility/fix-a11y/10-index.html)",
+      "Bash(git -C /home/vscode/holbertonschool-web_front_end commit -m \"Convert nav and package-list items to semantic lists\")"
+    ]
+  }
+}
