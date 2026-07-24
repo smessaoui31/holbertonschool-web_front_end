@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(git -C /home/vscode/holbertonschool-web_front_end add accessibility/fix-a11y/10-index.html)",
-      "Bash(git -C /home/vscode/holbertonschool-web_front_end commit -m \"Convert nav and package-list items to semantic lists\")"
+      "Bash(git -C /home/vscode/holbertonschool-web_front_end commit -m \"Convert nav and package-list items to semantic lists\")",
+      "Bash(mkdir /home/vscode/holbertonschool-web_front_end/Javascript_advanced)"
+    ],
+    "additionalDirectories": [
+      "/home/vscode/holbertonschool-web_front_end"
     ]
   }
 }
